@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+.card_section{
+    margin: 1rem;
+    width: 23.125rem;
+    height: 25rem;
+    border-radius: 1.625rem;
+    background: var(--white, #FFF);
+    box-shadow: 0px 1.85185px 3.14815px 0px
+}
+
+.card_section .image{
+    width: 20.0625rem;
+    height: 10.0625rem;
+    flex-shrink: 0;
+    padding: 1rem;
+    margin-bottom:2rem;
+}
+
+
+
+.trip_desc{
+    margin: 1rem;
+    font-size: 1.125rem;
+    line-height: 1.401rem;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: -0.005rem;
+}
+
+.trip_desc p{
+    margin: 1rem;
+}
+.trip_desc p:first-child{
+    color: var(--black, #080809);
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.245rem;
+letter-spacing: 0.01688rem;
+}
+.trip_desc p:nth-child(2){
+    color: var(--text-2, #84829A);
+    margin-bottom: 1.5rem;
+}
+
+#line1{
+    width: 0.0625rem;
+    height: 1rem;
+    border-right: 1px solid #84829A ;
+}
+
+.navigate_icons{
+    margin: 1rem;
+}
+
+.navigate_icons a img{
+    background-color: #F5F5F5;
+    padding: 1rem;
+    border-radius: 50%;
+}
+.navigate_icons a{
+    
+    width: 0.875rem;
+    height: 0.875rem;
+
+    margin: 0.75rem 0.69rem;
+}
+
+.going{
+    margin: 2rem 0 1rem 1rem;
+    display: flex;
+}
+
+/* .going{
+    display: flex;
+} */
+
+.going p{
+    margin-left: 1rem;
+}
